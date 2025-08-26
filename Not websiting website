@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This Website is Not Websiting</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Arial Black', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 3rem;
+      animation: wobble 2s infinite;
+      text-align: center;
+    }
+
+    @keyframes wobble {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(2deg); }
+      50% { transform: rotate(-2deg); }
+      75% { transform: rotate(1deg); }
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background: #ff4444;
+      color: white;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    button:hover {
+      background: #cc0000;
+    }
+  </style>
+</head>
+<body>
+  <h1>This website is not websiting 🚫</h1>
+  <button onclick="alert('Error: Still not websiting! 😵‍💫')">Try websiting again</button>
+</body>
+</html>
+
+
+I made you a simple funny website: when someone opens it, it shows “This website is not websiting 🚫” with a wobble effect and a button that just throws a fake error.
+
+You can copy the code I gave into a file called index.html, then open it in your browser.
+
+Do you want me to also make it look more broken (like glitch effects, console errors, fake loading screens), or keep it simple and clean?
+
